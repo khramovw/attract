@@ -1,1 +1,101 @@
-/* You can add global styles to this file, and also import other style files */
+@import "app/shared/scss/vars";
+@import "app/shared/scss/mixins";
+@import "app/shared/scss/font";
+
+body {
+  margin: 0;
+  font-size: calc(100vw / 1366 * 16);
+  font-weight: $fw-normal;
+  font-family: $montserrat , sans-serif;
+  box-sizing: border-box;
+}
+
+header, footer {
+  width: 100%;
+  height: em(186px);
+  background-color: #dedfe0;
+}
+main {
+  background-color: #fff;
+}
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+button {
+  &:focus {
+    outline: none;
+  }
+}
+
+fieldset {
+  border: none;
+  padding: 0;
+  width: 100%;
+  display: flex;
+}
+
+.ui-slider .ui-slider-range {
+  background-color: $blue !important;
+  height: .25em !important;
+  top: 50% !important;;
+  transform: translateY(-50%);
+}
+
+.ui-slider-horizontal .ui-slider-handle {
+  border-radius: 50%;
+  border: 2px solid $blue;
+  background-color: white;
+  width: 1.0625em !important;
+  height: 1.0625em !important;
+  top: -.15em !important;
+}
+
+.ng-select {
+  width: em(243px);
+  height: em(41px);
+  color: $grey;
+}
+
+body {
+  .ui-inputtext {
+    font-size: em(15px);
+    font-weight: $fw-regular;
+  }
+  .ui-widget {
+    font-family: $raleway, sans-serif;
+    font-size: em(15px);
+    text-decoration: none;
+    color: $grey;
+  }
+  .ui-corner-all {
+    border-radius: 0 !important;
+  }
+  .ui-slider .ui-slider-handle {
+    width: 1em !important;
+    height: 1em !important;
+    border-radius: 50% !important;
+    border-color: $blue;
+  }
+  .ui-slider.ui-slider-horizontal .ui-slider-handle {
+    margin-top: -0.25em;
+  }
+}
+
+.ui-dropdown {
+  display: flex;
+  align-items: center;
+}
+
+@media screen and(max-width: 1024px){
+  body {
+    font-size: 16px;
+  }
+  header, footer {
+    height: 30vh;
+  }
+  body .ui-widget {
+    font-size: 2em;
+  }
+}

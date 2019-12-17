@@ -1,1 +1,16 @@
-<p>card works!</p>
+
+<div class="card">
+
+  <div class="img-wrapper">
+    <img src="assets/img/{{card.path}}" alt="">
+    <div class="label"><h2>{{card.city}}</h2></div>
+  </div>
+
+  <div class="card-body">{{card.name}}</div>
+
+  <div  class="footer">
+    <div  class="categories">{{card.category}}</div>
+    <div class="coast">{{card.price | currency}}</div>
+  </div>
+
+</div>

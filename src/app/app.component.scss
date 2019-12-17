@@ -1,0 +1,68 @@
+@import "shared/scss/mixins";
+@import "shared/scss/vars";
+
+.container  {
+  margin: 0 auto;
+  width: 100%;
+  padding: em(50px) em(97px);
+}
+
+.wrapper {
+  display: inline-flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.content {
+  width: em(870px);
+  ul {
+    display: inline-flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+
+    li {
+      padding-bottom: 1.75em;
+
+      &:nth-child(3n+2) {
+        padding: 0 1.75em;
+      }
+    }
+
+  }
+}
+
+.sidebar {
+  width: em(240px);
+}
+
+.card {
+  //width: calc(18.6201em - 1.625em);
+  width: em(270px);
+}
+
+@media screen and(max-width: 1024px){
+  .container  {
+    padding: 15px;
+  }
+  .wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+  .content {
+    ul {
+      li, li:nth-child(3n+2) {
+        padding: 1.75em 0;
+        width: 100%;
+      }
+    }
+  }
+
+  .card {
+    width: 100%;
+  }
+
+  .sidebar, .content {
+    width: 100%;
+  }
+}
+

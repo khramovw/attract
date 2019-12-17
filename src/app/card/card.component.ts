@@ -1,4 +1,7 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, Input, OnInit} from '@angular/core';
+
+// Models
+import {CardModel} from '../shared/models/card.model'
 
 @Component({
   selector: 'app-card',
@@ -7,9 +10,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CardComponent implements OnInit {
 
+  @Input() card: CardModel;
+
   constructor() { }
 
   ngOnInit() {
+    // console.log('Cared > Data : ', this.card)
   }
 
 }

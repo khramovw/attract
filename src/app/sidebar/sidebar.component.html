@@ -1,1 +1,63 @@
-<p>sidebar works!</p>
+<div class="filter-wrapper">
+  <form
+    [formGroup]="form"
+    (ngSubmit)="onSubmit()"
+  >
+    <div class="item">
+      <div class="headline">{{'City' | uppercase}}</div>
+      <div class="select-wrapper">
+        <p-dropdown
+          [options]="cities"
+          formControlName="cities"
+          placeholder="Select a City"
+          optionLabel="name"
+          [showClear]="true"
+          styleClass="ng-select"
+          [style]="{'width': '100%'}"
+        ></p-dropdown>
+      </div>
+    </div>
+<!-- /item -->
+
+    <div class="item">
+      <div class="headline">{{'Categories' | uppercase}}</div>
+      <fieldset formArrayName="check" class="checkbox-wrapper">
+        <ul>
+          <li *ngFor="let category of getCategories.controls; let i = index">
+            <input
+              type="checkbox"
+              id="{{ i }}"
+              [formControlName]="i"
+            >
+            <label for="{{ i }}">{{ categories[i]['name'] }} <span>{{ '(' + categories[i]['count'] + ')' }}</span></label>
+
+          </li>
+        </ul>
+      </fieldset>
+    </div>
+<!-- /item -->
+
+    <div class="item">
+      <div class="headline">{{'Price' | uppercase}}</div>
+      <div class="input-wrapper">
+        <p-slider
+          [range]="true"
+          [min]="0"
+          [max]="250"
+          [step]="1"
+          [animate]="true"
+          [style]="{'width': '100%'}"
+          formControlName="range"
+          [(ngModel)]="rangeValues"
+        >
+        </p-slider>
+
+      </div>
+      <div class="controls">
+        <h3>{{'$' + rangeValues[0] + ' - ' + '$' + rangeValues[1]}}</h3>
+        <button type="submit" class="submit">Filter</button>
+      </div>
+    </div>
+<!-- /item-->
+  </form>
+</div>

@@ -5,3 +5,5 @@ var City=[
 		{id:4,name:'City 4'},
 		{id:5,name:'City 5'},
 	];
+
+module.exports = City;

@@ -1,0 +1,106 @@
+@import "../shared/scss/vars";
+@import "../shared/scss/mixins";
+
+.headline {
+  margin-bottom: 1.875em;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  h1 {
+    font-size: 1.125em;
+  }
+}
+.item:not(:first-child) {
+  margin-top: 3.75em;
+}
+.checkbox-wrapper {
+  li {
+    display: flex;
+    align-items: center;
+    position: relative;
+
+    & + li {
+      margin-top: 1.0625em;
+    }
+    &:hover {
+
+      label {
+        color: $blue;
+        cursor: pointer;
+        font-size: em(15px);
+      }
+    }
+  }
+  input {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+
+    &:checked {
+      & + label {
+        &::before {
+          border-color: $blue;
+          color: $blue;
+          background: url(../../assets/img/checked.png) no-repeat center;
+          padding: .125em;
+        }
+      }
+    }
+  }
+
+  label {
+    font-family: $raleway, sans-serif;
+    font-weight: $fw-normal;
+    font-size: .9375em;
+    color: $grey;
+    width: 100%;
+    margin-left: em(26px);
+
+
+    &::before {
+      content: '';
+      display: inline-block;
+      width: em(18px);
+      height: em(18px);
+      border: 1px solid $grey;
+      vertical-align: middle;
+      box-sizing: border-box;
+      margin-right: .625em;
+      position: absolute;
+      left: 0;
+    }
+    span {
+      color: #a6a9af;
+    }
+  }
+  i {
+    color: $blue !important;
+  }
+}
+.input-wrapper {
+  padding: 0 .5em;
+}
+.controls {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  button {
+    text-transform: uppercase;
+    padding: .5em 2em;
+    background-color: $blue;
+    color: white;
+    border: transparent;
+    font-family: $montserrat, sans-serif;
+    font-weight: 500;
+    font-size: .875em;
+    cursor: pointer;
+  }
+}
+
+@media screen and(max-width: 1024px){
+  .headline, .controls, .checkbox-wrapper li {
+    font-size: 2em;
+  }
+}

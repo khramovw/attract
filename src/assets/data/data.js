@@ -5,3 +5,5 @@ var Data=[
 		{id:4,name:'Name 4', city:2, category:4, price:150},
 		{id:5,name:'Name 5', city:3, category:5, price:200}
 	];
+
+module.exports = Data;
