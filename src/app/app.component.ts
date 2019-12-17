@@ -58,7 +58,7 @@ export class AppComponent implements OnInit {
   onFilter(e) {
     this.resultData = this.newData
       .filter( card => e.cities ? e.cities.name === card.city : card)
-        .filter( card => e.check.filter(o => o === false).length === 5 ? card : e.check[card.category_id - 1])
+        .filter( card => e.check.filter(o => o === false).length === e.check.length ? card : e.check[card.category_id - 1])
           .filter( card => e.range[0] <= card.price && e.range[1] >= card.price);
   }
 
