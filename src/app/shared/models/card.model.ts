@@ -6,6 +6,6 @@ export class CardModel {
     public category: string,
     public price: number,
     public path: string,
-    public category_id: number
+    public categoryId: number
   ) {}
 }

@@ -18,7 +18,7 @@ import {CategoryModel} from "../shared/models/category.model";
 export class SidebarComponent implements OnInit {
 
   cities: CityModel[];
-  categories: CategoryModel = _categories;
+  categories = JSON.parse(JSON.stringify(_categories));
   form: FormGroup;
   rangeValues: number[] = [0, 250];
 
@@ -29,17 +29,17 @@ export class SidebarComponent implements OnInit {
   constructor(
     private fb: FormBuilder
   ) {
-    this.cities = _city;
+    this.cities = JSON.parse(JSON.stringify(_city));
     this.form = fb.group({
       cities: [null],
       check: fb.array([]),
       range: [{value: [0,250]}]
-    })
+    });
   }
 
   ngOnInit() {
     this.categoryList();
-    this.countCategory()
+    this.countCategory();
   }
 
   // Получаю чекбоксы
@@ -49,7 +49,7 @@ export class SidebarComponent implements OnInit {
 
   // Собираю список категорий
   categoryList() {
-    _categories.forEach(() => {
+    this.categories.forEach(() => {
       (this.form.get('check') as FormArray)
         .push(this.fb.control(false));
     });
@@ -57,14 +57,14 @@ export class SidebarComponent implements OnInit {
 
   // Считаю категории
   countCategory() {
-    _categories.forEach( item => {
+    this.categories.forEach( item => {
       return item.count = _data.filter(cat => cat.category === item.id).length;
     });
   }
 
   // Сабмичу фильтр
   onSubmit() {
-    this.filter.emit(this.form.value)
+    this.filter.emit(this.form.value);
   }
 
 }
