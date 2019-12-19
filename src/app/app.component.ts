@@ -9,6 +9,7 @@ import * as _data from '../assets/data/data';
 import {CategoryModel} from './shared/models/category.model';
 import {CityModel} from './shared/models/city.model';
 import {CardModel} from './shared/models/card.model';
+import {DataModel} from './shared/models/data.model';
 
 
 @Component({
@@ -18,9 +19,9 @@ import {CardModel} from './shared/models/card.model';
 })
 export class AppComponent implements OnInit {
 
-  category = this.copyObj(_categories);
-  city = this.copyObj(_city);
-  data = this.copyObj(_data);
+  category: CategoryModel[] = this.copyObj(_categories);
+  city: CityModel[] = this.copyObj(_city);
+  data: DataModel[] = this.copyObj(_data);
   newData: CardModel[];
   resultData: CardModel[];
 
