@@ -98,3 +98,11 @@
     font-size: 2em;
   }
 };
+@media screen and(max-width: 414px){
+.footer {
+    flex-direction: column;
+  }
+  .coast {
+    margin-top: 1em;
+  }
+};

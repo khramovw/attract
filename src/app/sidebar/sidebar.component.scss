@@ -105,4 +105,16 @@
   .headline, .controls, .checkbox-wrapper li {
     font-size: 2em;
   }
+  .controls {
+    flex-direction: column;
+  }
+  .select-wrapper {
+    max-width: 100%;
+  }
+  .checkbox-wrapper label::before {
+    width: 16px;
+    height: 16px;
+    top: 50%;
+    transform: translateY(-50%);
+  }
 }

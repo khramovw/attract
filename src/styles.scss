@@ -98,3 +98,11 @@ body {
     font-size: 2em;
   }
 }
+
+@media screen and(max-width: 412px){
+
+  body .ui-widget {
+    font-size: 1em;
+  }
+
+}

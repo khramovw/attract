@@ -50,6 +50,7 @@ export class AppComponent implements OnInit {
     return data as CardModel[];
   }
 
+
   // Добавляю путь к изображению
   addImg() {
     let counter = 1;
