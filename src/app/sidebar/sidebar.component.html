@@ -5,7 +5,7 @@
   >
     <div class="item">
       <div class="headline">{{'City' | uppercase}}</div>
-      <div class="select-wrapper">
+      <div class="select-wrapper" tabindex="1">
         <p-dropdown
           [options]="cities"
           formControlName="cities"
@@ -28,8 +28,14 @@
               type="checkbox"
               id="{{ i }}"
               [formControlName]="i"
+              tabindex="{{1+i+1}}"
+              role="checkbox"
+              aria-checked="mixed"
+              [attr.aria-label]="categories[i]['name']"
             >
-            <label for="{{ i }}">{{ categories[i]['name'] }} <span>{{ '(' + categories[i]['count'] + ')' }}</span></label>
+            <label for="{{ i }}">
+              {{ categories[i]['name'] }} <span>{{ '(' + categories[i]['count'] + ')' }}</span>
+            </label>
 
           </li>
         </ul>
@@ -49,6 +55,7 @@
           [style]="{'width': '100%'}"
           formControlName="range"
           [(ngModel)]="rangeValues"
+          tabindex="8"
         >
         </p-slider>
 

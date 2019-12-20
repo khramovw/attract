@@ -11,9 +11,9 @@
 
       <div class="content">
         <ul>
-          <li *ngFor="let card of resultData">
+          <li *ngFor="let card of resultData; index as i">
             <div class="card">
-              <app-card [card]="card"></app-card>
+              <app-card [card]="card" tabindex="{{10+i+1}}"></app-card>
             </div>
           </li>
         </ul>

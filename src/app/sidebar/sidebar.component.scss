@@ -1,6 +1,7 @@
 @import "../shared/scss/vars";
 @import "../shared/scss/mixins";
 
+
 .headline {
   margin-bottom: 1.875em;
   font-family: 'Montserrat', sans-serif;
@@ -29,6 +30,14 @@
         color: $blue;
         cursor: pointer;
         font-size: em(15px);
+
+        span {
+          color: $blue;
+        }
+
+        &::before {
+          border-color: $blue;
+        }
       }
     }
   }
@@ -47,6 +56,15 @@
           background: url(../../assets/img/checked.png) no-repeat center;
           padding: .125em;
         }
+      }
+    }
+
+    &:focus {
+      & + label, & + label span {
+        color: $blue;
+      }
+      & +label::before {
+        border-color: $blue;
       }
     }
   }
