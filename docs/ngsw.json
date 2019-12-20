@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1576846445180,
+  "timestamp": 1576848621767,
   "index": "https://khramovw.github.io/attract/index.html",
   "assetGroups": [
     {
@@ -33,8 +33,6 @@
         "https://khramovw.github.io/attract/assets/data/category.js",
         "https://khramovw.github.io/attract/assets/data/city.js",
         "https://khramovw.github.io/attract/assets/data/data.js",
-        "https://khramovw.github.io/attract/assets/fonts/montserrat-regular-webfont.woff2",
-        "https://khramovw.github.io/attract/assets/fonts/raleway-medium-webfont.woff2",
         "https://khramovw.github.io/attract/assets/icons/icon-128x128.png",
         "https://khramovw.github.io/attract/assets/icons/icon-144x144.png",
         "https://khramovw.github.io/attract/assets/icons/icon-152x152.png",
@@ -50,9 +48,6 @@
         "https://khramovw.github.io/attract/checked.3cc971866244f9cef3af.png",
         "https://khramovw.github.io/attract/color.c7a33805ffda0d32bd2a.png",
         "https://khramovw.github.io/attract/hue.0614c27197fc3ce572e1.png",
-        "https://khramovw.github.io/attract/open-sans-v15-latin-300.60c866748ff15f5b347f.woff2",
-        "https://khramovw.github.io/attract/open-sans-v15-latin-700.d08c09f2f169f4a6edbc.woff2",
-        "https://khramovw.github.io/attract/open-sans-v15-latin-regular.cffb686d7d2f4682df83.woff2",
         "https://khramovw.github.io/attract/password-meter.d59e6dc2616c53ce8e77.png"
       ],
       "patterns": []
@@ -63,8 +58,6 @@
     "https://khramovw.github.io/attract/assets/data/category.js": "2ce1b9922eb4456136fcc91e5819eb95ac271e85",
     "https://khramovw.github.io/attract/assets/data/city.js": "4d11bdd047ca39c8802dfdf3afef409d231b9b34",
     "https://khramovw.github.io/attract/assets/data/data.js": "fa11a9c5a1023c21c2bc8961fc49d6807db3f09c",
-    "https://khramovw.github.io/attract/assets/fonts/montserrat-regular-webfont.woff2": "f3374ae109f1dace4469c234aba8b89e1d662d3d",
-    "https://khramovw.github.io/attract/assets/fonts/raleway-medium-webfont.woff2": "370679edd800bd24c66d9758be3edf24cbd85d2e",
     "https://khramovw.github.io/attract/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
     "https://khramovw.github.io/attract/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
     "https://khramovw.github.io/attract/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
@@ -81,13 +74,10 @@
     "https://khramovw.github.io/attract/color.c7a33805ffda0d32bd2a.png": "ff4c4bcb2207891b292f544edb4da9d2df5d45cf",
     "https://khramovw.github.io/attract/favicon.ico": "84161b857f5c547e3699ddfbffc6d8d737542e01",
     "https://khramovw.github.io/attract/hue.0614c27197fc3ce572e1.png": "f81ae627637a684614aa726e206c73ce099a01fd",
-    "https://khramovw.github.io/attract/index.html": "443d7a18eabd5bed91521efff4e3b9fc0eabddf4",
+    "https://khramovw.github.io/attract/index.html": "44330db54f50fb8251d1f0a3210d9dcc12a6d1d3",
     "https://khramovw.github.io/attract/main-es2015.23e818f75fdeeafbb0cc.js": "2a3f46ca6afdefaed88310d99483ef115e507329",
     "https://khramovw.github.io/attract/main-es5.464885a62fb120009590.js": "5ec7f663f02345bf2110f7b061c872d7ada30976",
     "https://khramovw.github.io/attract/manifest.webmanifest": "15c52522dfbfdc07a079ce9d0e2142b46d66d282",
-    "https://khramovw.github.io/attract/open-sans-v15-latin-300.60c866748ff15f5b347f.woff2": "34f486906decb7c8cf7a02d4758add9a2408c7a5",
-    "https://khramovw.github.io/attract/open-sans-v15-latin-700.d08c09f2f169f4a6edbc.woff2": "5a6a45d6f98752b11ccb7c4f0f6fd7faf18ad1a7",
-    "https://khramovw.github.io/attract/open-sans-v15-latin-regular.cffb686d7d2f4682df83.woff2": "2c07a9656f1e38da408f20f1cf11581a15cbd7a2",
     "https://khramovw.github.io/attract/password-meter.d59e6dc2616c53ce8e77.png": "e0e101bd2a1cbda41398b48a4ab1792d89cb7334",
     "https://khramovw.github.io/attract/polyfills-es2015.8a844354476d4aab1222.js": "f33238825850a8007585a1a80e02e1248268682d",
     "https://khramovw.github.io/attract/polyfills-es5.6534cf86be14d304f12f.js": "9d9b583788005b7e2dc51d2b965f7c09b9180c60",

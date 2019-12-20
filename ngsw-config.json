@@ -25,7 +25,7 @@
       "resources": {
         "files": [
           "/assets/**",
-          "/*.(jpg|png|woff2|ani|js)"
+          "/*.(jpg|png|ani|js)"
         ]
       }
     }
