@@ -10,6 +10,8 @@ import {SidebarComponent} from './sidebar/sidebar.component';
 
 // Prime NG
 import {DropdownModule, SliderModule} from 'primeng';
+import { ServiceWorkerModule } from '@angular/service-worker';
+import { environment } from '../environments/environment';
 
 
 @NgModule({
@@ -24,10 +26,12 @@ import {DropdownModule, SliderModule} from 'primeng';
     FormsModule,
     ReactiveFormsModule,
     DropdownModule,
-    SliderModule
+    SliderModule,
+    ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production })
   ],
   providers: [],
   bootstrap: [AppComponent]
 })
 export class AppModule {
 }
+

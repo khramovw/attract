@@ -15,10 +15,12 @@
 
 .content {
   width: em(870px);
+
   ul {
     display: inline-flex;
     justify-content: flex-start;
     flex-wrap: wrap;
+    width: 100%;
 
     li {
       padding-bottom: 1.75em;
