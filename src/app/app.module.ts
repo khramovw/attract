@@ -1,7 +1,7 @@
 import {BrowserModule} from '@angular/platform-browser';
-import {BrowserAnimationsModule} from "@angular/platform-browser/animations";
+import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import {NgModule} from '@angular/core';
-import {FormsModule, ReactiveFormsModule} from "@angular/forms";
+import {FormsModule, ReactiveFormsModule} from '@angular/forms';
 
 // Components
 import {AppComponent} from './app.component';
@@ -9,8 +9,13 @@ import {CardComponent} from './card/card.component';
 import {SidebarComponent} from './sidebar/sidebar.component';
 
 // Prime NG
-import {DropdownModule, SliderModule} from 'primeng';
+import {DropdownModule} from 'primeng/dropdown';
+import {SliderModule} from 'primeng/slider';
+
+// Service Worker
 import { ServiceWorkerModule } from '@angular/service-worker';
+
+// Environment
 import { environment } from '../environments/environment';
 
 
