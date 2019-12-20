@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1576866416051,
+  "timestamp": 1576873673496,
   "index": "https://khramovw.github.io/attract/index.html",
   "assetGroups": [
     {
@@ -10,15 +10,15 @@
       "urls": [
         "https://khramovw.github.io/attract/favicon.ico",
         "https://khramovw.github.io/attract/index.html",
-        "https://khramovw.github.io/attract/main-es2015.dfa50b0956f65b0cd32a.js",
-        "https://khramovw.github.io/attract/main-es5.0ec34ebd0c5133ef1fad.js",
+        "https://khramovw.github.io/attract/main-es2015.175da1cd96ab82872cad.js",
+        "https://khramovw.github.io/attract/main-es5.a0ee8fcfcda6bf010386.js",
         "https://khramovw.github.io/attract/manifest.webmanifest",
         "https://khramovw.github.io/attract/polyfills-es2015.8a844354476d4aab1222.js",
         "https://khramovw.github.io/attract/polyfills-es5.6534cf86be14d304f12f.js",
         "https://khramovw.github.io/attract/runtime-es2015.ecda22d2152469bce701.js",
         "https://khramovw.github.io/attract/runtime-es5.9e46f86c4d4470dd5413.js",
         "https://khramovw.github.io/attract/scripts.6634288e56843a421998.js",
-        "https://khramovw.github.io/attract/styles.996f38b308b212708252.css"
+        "https://khramovw.github.io/attract/styles.8fc618e8cbc25a989eca.css"
       ],
       "patterns": [
         "https:\\/\\/fonts\\.googleapis\\.com\\/css\\?family=Montserrat:400,500,700|Raleway:400,500&display=swap",
@@ -93,9 +93,9 @@
     "https://khramovw.github.io/attract/color.c7a33805ffda0d32bd2a.png": "ff4c4bcb2207891b292f544edb4da9d2df5d45cf",
     "https://khramovw.github.io/attract/favicon.ico": "84161b857f5c547e3699ddfbffc6d8d737542e01",
     "https://khramovw.github.io/attract/hue.0614c27197fc3ce572e1.png": "f81ae627637a684614aa726e206c73ce099a01fd",
-    "https://khramovw.github.io/attract/index.html": "7d1a41cab293a6bad819f73d30645e1eade3e26b",
-    "https://khramovw.github.io/attract/main-es2015.dfa50b0956f65b0cd32a.js": "7f09b8d4f4604694efbfb83a7d5cb7c7c256e4f1",
-    "https://khramovw.github.io/attract/main-es5.0ec34ebd0c5133ef1fad.js": "9215e62181da13619e5b5b2fa6a2ab50ad2cf66a",
+    "https://khramovw.github.io/attract/index.html": "8f7c65c76f07eb9a299c0a04ef2baf89d432c702",
+    "https://khramovw.github.io/attract/main-es2015.175da1cd96ab82872cad.js": "c33d35655cdb13a3cb4a66241def9f4f210a2310",
+    "https://khramovw.github.io/attract/main-es5.a0ee8fcfcda6bf010386.js": "6d4398fbbb4d81a28cb5c142916e7fa1863ba61b",
     "https://khramovw.github.io/attract/manifest.webmanifest": "15c52522dfbfdc07a079ce9d0e2142b46d66d282",
     "https://khramovw.github.io/attract/open-sans-v15-latin-300.177cc92d2e8027712a8c.ttf": "861b3593521709d9fa8a8efb6f40817dd7fa9337",
     "https://khramovw.github.io/attract/open-sans-v15-latin-300.27ef0b062b2e221df16f.svg": "1183c2939f6cad1ac69dc16d4a0b943d546e4b2e",
@@ -122,7 +122,7 @@
     "https://khramovw.github.io/attract/runtime-es2015.ecda22d2152469bce701.js": "b62956c2192bfe5516d6374e753773901ed50ec5",
     "https://khramovw.github.io/attract/runtime-es5.9e46f86c4d4470dd5413.js": "b62956c2192bfe5516d6374e753773901ed50ec5",
     "https://khramovw.github.io/attract/scripts.6634288e56843a421998.js": "d0bbd86de1d3ddfdbf432824fcce5e33c5457810",
-    "https://khramovw.github.io/attract/styles.996f38b308b212708252.css": "c14a31501375baea306ecf1433cb46d7b2358d46"
+    "https://khramovw.github.io/attract/styles.8fc618e8cbc25a989eca.css": "583b83e716cbb08503e67ea580eec010f6e9b11c"
   },
   "navigationUrls": [
     {

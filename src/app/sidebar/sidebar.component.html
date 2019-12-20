@@ -5,13 +5,14 @@
   >
     <div class="item">
       <div class="headline">{{'City' | uppercase}}</div>
-      <div class="select-wrapper" tabindex="1">
+      <div class="select-wrapper" >
         <p-dropdown
           [options]="cities"
           formControlName="cities"
           placeholder="Select a City"
           optionLabel="name"
           [showClear]="true"
+          tabindex="1"
           styleClass="ng-select"
           [style]="{'width': '100%'}"
         ></p-dropdown>
