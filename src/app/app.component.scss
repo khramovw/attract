@@ -26,7 +26,8 @@
       padding-bottom: 1.75em;
 
       &:nth-child(3n+2) {
-        padding: 0 1.75em;
+        padding-left: 1.75em;
+        padding-right: 1.75em;
       }
     }
 
@@ -40,6 +41,22 @@
 .card {
   //width: calc(18.6201em - 1.625em);
   width: em(270px);
+}
+
+@media screen and (min-width: 1920px){
+  .container  {
+    padding: em(50px) em(87px);
+  }
+  .content {
+    width: calc(100% - 15em);
+
+    li {
+      &:nth-child(3n+2) {
+        padding-right: 0!important;
+      }
+      padding-left: 1.7em;
+    }
+  }
 }
 
 @media screen and(max-width: 1024px){

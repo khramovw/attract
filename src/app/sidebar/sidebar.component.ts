@@ -49,7 +49,7 @@ export class SidebarComponent implements OnInit {
 
   // Собираю список категорий
   categoryList() {
-    this.categories.forEach(() => {
+    this.categories.forEach((c) => {
       (this.form.get('check') as FormArray)
         .push(this.fb.control(false));
     });
@@ -65,6 +65,7 @@ export class SidebarComponent implements OnInit {
   // Сабмичу фильтр
   onSubmit() {
     this.filter.emit(this.form.value);
+    console.log('Submit: ', this.form);
   }
 
 }
