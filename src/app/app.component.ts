@@ -10,6 +10,7 @@ import {CategoryModel} from './shared/models/category.model';
 import {CityModel} from './shared/models/city.model';
 import {CardModel} from './shared/models/card.model';
 import {DataModel} from './shared/models/data.model';
+import {Meta, Title} from '@angular/platform-browser';
 
 
 @Component({
@@ -25,7 +26,20 @@ export class AppComponent implements OnInit {
   newData: CardModel[];
   resultData: CardModel[];
 
-  constructor() {
+  constructor(
+    private metaTagService: Meta,
+    private title: Title
+  ) {
+    this.metaTagService.addTags([
+      { name: 'keywords', content: 'Angular test app' },
+      { name: 'robots', content: 'index, follow' },
+      { name: 'author', content: 'Khramov Vladislav' },
+      { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+      { name: 'date', content: '2019-10-31', scheme: 'YYYY-MM-DD' },
+      { charset: 'UTF-8' },
+      { name: 'description', content: 'Angular test app' }
+    ]);
+    title.setTitle('Attract test app');
   }
 
   ngOnInit(): void {

@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1576864883561,
+  "timestamp": 1576866416051,
   "index": "https://khramovw.github.io/attract/index.html",
   "assetGroups": [
     {
@@ -10,8 +10,8 @@
       "urls": [
         "https://khramovw.github.io/attract/favicon.ico",
         "https://khramovw.github.io/attract/index.html",
-        "https://khramovw.github.io/attract/main-es2015.2ba927c84be45580a781.js",
-        "https://khramovw.github.io/attract/main-es5.f416017bc1d382748540.js",
+        "https://khramovw.github.io/attract/main-es2015.dfa50b0956f65b0cd32a.js",
+        "https://khramovw.github.io/attract/main-es5.0ec34ebd0c5133ef1fad.js",
         "https://khramovw.github.io/attract/manifest.webmanifest",
         "https://khramovw.github.io/attract/polyfills-es2015.8a844354476d4aab1222.js",
         "https://khramovw.github.io/attract/polyfills-es5.6534cf86be14d304f12f.js",
@@ -93,9 +93,9 @@
     "https://khramovw.github.io/attract/color.c7a33805ffda0d32bd2a.png": "ff4c4bcb2207891b292f544edb4da9d2df5d45cf",
     "https://khramovw.github.io/attract/favicon.ico": "84161b857f5c547e3699ddfbffc6d8d737542e01",
     "https://khramovw.github.io/attract/hue.0614c27197fc3ce572e1.png": "f81ae627637a684614aa726e206c73ce099a01fd",
-    "https://khramovw.github.io/attract/index.html": "1c2978d606767e33a0651d623d78c0fdf2801794",
-    "https://khramovw.github.io/attract/main-es2015.2ba927c84be45580a781.js": "243590e2736f3d10c155f4da2e194bd83255b9fb",
-    "https://khramovw.github.io/attract/main-es5.f416017bc1d382748540.js": "5175868ccdab88b8302bd22ac5e3e258eb6cc0eb",
+    "https://khramovw.github.io/attract/index.html": "7d1a41cab293a6bad819f73d30645e1eade3e26b",
+    "https://khramovw.github.io/attract/main-es2015.dfa50b0956f65b0cd32a.js": "7f09b8d4f4604694efbfb83a7d5cb7c7c256e4f1",
+    "https://khramovw.github.io/attract/main-es5.0ec34ebd0c5133ef1fad.js": "9215e62181da13619e5b5b2fa6a2ab50ad2cf66a",
     "https://khramovw.github.io/attract/manifest.webmanifest": "15c52522dfbfdc07a079ce9d0e2142b46d66d282",
     "https://khramovw.github.io/attract/open-sans-v15-latin-300.177cc92d2e8027712a8c.ttf": "861b3593521709d9fa8a8efb6f40817dd7fa9337",
     "https://khramovw.github.io/attract/open-sans-v15-latin-300.27ef0b062b2e221df16f.svg": "1183c2939f6cad1ac69dc16d4a0b943d546e4b2e",
